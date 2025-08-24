@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王锐 - 资深运维工程师 | Docker/Kubernetes专家</title>
+    <meta name="description" content="王锐 - 拥有10年云原生架构运维经验的资深工程师，专精Docker/Kubernetes平台建设，具备大规模分布式系统运维经验">
+    <meta name="keywords" content="Docker, Kubernetes, 云原生, 运维工程师, 容器化, 自动化运维, DevOps">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loader-text">Loading<span class="loader-dots"></span></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="nav-header">
+            <div class="nav-avatar">
+                <div class="avatar-placeholder">WR</div>
+            </div>
+            <h3 class="nav-name">王锐</h3>
+            <p class="nav-title">资深运维工程师</p>
+        </div>
+        
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active"><span class="nav-icon">🏠</span>首页</a></li>
+            <li><a href="#about" class="nav-link"><span class="nav-icon">👤</span>关于我</a></li>
+            <li><a href="#skills" class="nav-link"><span class="nav-icon">⚡</span>技能</a></li>
+            <li><a href="#experience" class="nav-link"><span class="nav-icon">💼</span>经历</a></li>
+            <li><a href="#projects" class="nav-link"><span class="nav-icon">🚀</span>项目</a></li>
+            <li><a href="#contact" class="nav-link"><span class="nav-icon">📧</span>联系</a></li>
+        </ul>
+        
+        <div class="nav-footer">
+            <p>Docker/K8s专家</p>
+            <div class="social-links">
+                <span class="tech-badge">10年经验</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-name">王锐</span>
+                    <span class="hero-divider">|</span>
+                    <span class="hero-role">资深运维工程师</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typewriter" id="typewriter"></span>
+                </div>
+                <div class="hero-contact">
+                    <a href="tel:138-XXXX-XXXX" class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        138-XXXX-XXXX
+                    </a>
+                    <a href="mailto:wangrui@126.com" class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        wangrui@126.com
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">年经验</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">110</span>
+                        <span class="stat-label">节点集群</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">容器管理</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="code-pattern"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2 class="section-title">关于我</h2>
+                <p class="section-subtitle">十年云原生架构运维经验，专注大规模容器平台建设</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>资深运维工程师，拥有<strong>10年云原生架构运维经验</strong>，专精Docker/Kubernetes平台建设与运维。曾主导<strong>110节点混合云K8s集群</strong>建设，管理<strong>1000+容器</strong>生产环境。</p>
+                    <p>在容器化、自动化运维、监控体系建设方面有丰富实践经验，具备<strong>Docker源码研究</strong>能力和大规模分布式系统运维经验。擅长性能调优，曾将API网关QPS从800提升至2400。</p>
+                </div>
+                
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon">🐳</div>
+                        <div class="highlight-content">
+                            <h4>容器专家</h4>
+                            <p>Docker源码研究，200+服务容器化</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">⚓</div>
+                        <div class="highlight-content">
+                            <h4>K8s架构师</h4>
+                            <p>110节点集群，生产环境管理经验</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">📊</div>
+                        <div class="highlight-content">
+                            <h4>监控专家</h4>
+                            <p>Prometheus+ELK，日均TB级日志处理</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">🚀</div>
+                        <div class="highlight-content">
+                            <h4>性能优化</h4>
+                            <p>API网关QPS提升300%，P99延迟优化</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="section-header">
+                <h2 class="section-title">核心技能</h2>
+                <p class="section-subtitle">全栈运维技术能力，涵盖容器、云原生、自动化等领域</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">容器平台</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Kubernetes</span>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                            <p class="skill-desc">生产环境110节点/1000+容器</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Docker</span>
+                                <span class="skill-level">98%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="98%"></div>
+                            </div>
+                            <p class="skill-desc">源码研究，镜像构建专家</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">自动化运维</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Ansible</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                            <p class="skill-desc">千台规模自动化部署</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Terraform</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                            <p class="skill-desc">基础设施即代码</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">云平台</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">阿里云</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                            <p class="skill-desc">ECS/SLB/VPC全栈运维</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">AWS</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                            <p class="skill-desc">EC2/S3服务运维经验</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">监控日志</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Prometheus</span>
+                                <span class="skill-level">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92%"></div>
+                            </div>
+                            <p class="skill-desc">监控体系覆盖率98%</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">ELK Stack</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                            <p class="skill-desc">日均TB级日志处理</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">开发语言</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                            <p class="skill-desc">自动化脚本，Flask平台</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Golang</span>
+                                <span class="skill-level">78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78%"></div>
+                            </div>
+                            <p class="skill-desc">运维工具开发，Exporter</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">专业技能</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CI/CD</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                            <p class="skill-desc">Jenkins Pipeline，日均50+构建</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">区块链运维</span>
+                                <span class="skill-level">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82%"></div>
+                            </div>
+                            <p class="skill-desc">以太坊节点池300+节点</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="section-header">
+                <h2 class="section-title">工作经历</h2>
+                <p class="section-subtitle">丰富的大规模生产环境运维经验</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">某科技公司 - 高级运维工程师</h3>
+                            <span class="job-period">2014年6月 - 至今</span>
+                        </div>
+                        
+                        <div class="job-achievements">
+                            <div class="achievement-item">
+                                <h4>🐳 Docker/K8s平台建设</h4>
+                                <ul>
+                                    <li>主导视频云平台容器化，编写<strong>200+服务Dockerfile</strong>，构建定制化基础镜像</li>
+                                    <li>部署管理<strong>混合云K8s集群（阿里云+电信云，110节点）</strong>，支撑1000+容器</li>
+                                    <li>开发Helm chart模板，<strong>部署效率提升70%</strong>（1.5小时→0.5小时/服务）</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="achievement-item">
+                                <h4>⛓️ 区块链节点运维</h4>
+                                <ul>
+                                    <li>维护以太坊节点池（<strong>300+节点</strong>），优化同步延迟<strong>40%</strong></li>
+                                    <li>设计节点健康检查系统（Python），故障发现时间缩短至<strong>1分钟</strong></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="achievement-item">
+                                <h4>📊 监控日志体系</h4>
+                                <ul>
+                                    <li>搭建Prometheus+Alertmanager监控体系，<strong>覆盖率98%</strong></li>
+                                    <li>实施ELK日志平台，处理<strong>日均TB级日志</strong></li>
+                                    <li>开发Golang Exporter采集区块链节点<strong>20+关键指标</strong></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="achievement-item">
+                                <h4>🚀 开发测试环境优化</h4>
+                                <ul>
+                                    <li>构建容器化CI/CD流水线，<strong>资源利用率提升35%</strong></li>
+                                    <li>实现Ansible自动化环境部署，环境创建时间从<strong>2小时→15分钟</strong></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="achievement-item">
+                                <h4>⚡ 系统瓶颈定位</h4>
+                                <ul>
+                                    <li>通过pprof优化API网关，<strong>QPS从800→2400</strong></li>
+                                    <li>调整Kernel参数，<strong>网络P99延迟降低60ms</strong></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="section-header">
+                <h2 class="section-title">重点项目</h2>
+                <p class="section-subtitle">技术领导的关键项目经验</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🏗️</div>
+                        <div class="project-meta">
+                            <h3 class="project-title">视频云平台容器化</h3>
+                            <span class="project-period">2019-2021 | 技术负责人</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <p class="project-description">
+                            主导大规模视频云平台的容器化改造，涉及200+微服务的Docker化和K8s集群部署
+                        </p>
+                        
+                        <div class="project-achievements">
+                            <div class="achievement">
+                                <span class="achievement-metric">40%</span>
+                                <span class="achievement-desc">镜像体积减少</span>
+                            </div>
+                            <div class="achievement">
+                                <span class="achievement-metric">90%</span>
+                                <span class="achievement-desc">CVE漏洞减少</span>
+                            </div>
+                            <div class="achievement">
+                                <span class="achievement-metric">75%</span>
+                                <span class="achievement-desc">线上事故减少</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">Helm</span>
+                            <span class="tech-tag">容器安全</span>
+                            <span class="tech-tag">金丝雀发布</span>
+                        </div>
+                        
+                        <div class="project-details">
+                            <ul>
+                                <li>从源码构建轻量化基础镜像，显著减少镜像体积</li>
+                                <li>制定Dockerfile安全规范，大幅降低安全漏洞</li>
+                                <li>实施金丝雀发布策略，提升发布安全性</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2 class="section-title">联系方式</h2>
+                <p class="section-subtitle">期待与您的技术交流</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>电话</h4>
+                            <p>138-XXXX-XXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>邮箱</h4>
+                            <p>wangrui@126.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h4>专业领域</h4>
+                            <p>Docker/K8s • 云原生运维 • 监控体系</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-cta">
+                    <p>拥有10年云原生运维经验，专精大规模容器平台建设与运维</p>
+                    <div class="cta-buttons">
+                        <a href="tel:138-XXXX-XXXX" class="cta-button primary">立即联系</a>
+                        <a href="mailto:wangrui@126.com" class="cta-button secondary">发送邮件</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
